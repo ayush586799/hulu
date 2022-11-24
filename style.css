@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(10, 10, 10);
+    font-family: 'Oswald', sans-serif;
+}
+
+.container{
+    height: 90vh;
+}
+
+section{
+    background-image: url('./logo/main.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
+.logo{
+    height: 60px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:50px;
+    padding: 10px 20px 10px 20px;
+}
+
+.login-btn{
+     font-family: 'Oswald', sans-serif;
+     padding: 5px;
+     background: none;
+     border-radius: 10px;
+     border: none;
+     color: white;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     font-size: 16px;
+     font-weight: 700px;
+}
+
+.login-btn:hover{
+    background-color: grey;
+    opacity: 0.6;
+}
+
+/* Start Hero Section*/
+
+.hero-section{
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Graphik Web', 'Graphik', sans-serif;
+}
+
+.hero-section img{
+    width: 50%;
+    margin-top: 20px;
+}
+
+.hero-section p:first-child{
+    color: #1ce783;
+    font-weight: 1000px;
+}
+
+.hero-section h6{
+    color: white;
+    font-size: 23px;
+    margin: 20px 0px 20px 0px;
+}
+.hero-section p:last-child{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.hero-section button{
+    height: 50px;
+    width: 55%;
+    background-color: #1ce783;
+    border: none;
+    margin: 5px 0px 20px 0px;
+    font-weight:bold;
+}
+
+.hero-section button:hover{
+    background-color: #3ef59a;
+}
+.hero-section a{
+    color: gray;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.hero-section div a{
+    color: white;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+/* Start Second Section */
+
+.second-section{
+    height: 110vh;
+    font-family: 'Graphik Web', 'Graphik', sans-serif;
+
+}
+
+.second-section .one{
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.second-section .one p:first-child{
+    color:  #29a869;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.second-section .one h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    margin: 20px 0px 30px 0px;
+}
+
+.second-section .one p:last-child{
+    color: white;
+    font-size: 19px;
+}
+
+.second-section .two{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.second-section .two div{ 
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.second-section .two .one{
+    background-image: url(./images/one.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 320px;
+}
+.second-section .two .two{
+    background-image: url(./images/two.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 320px;
+}
+.second-section .two .three{
+    background-image: url(./images/three.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 320px;
+}
+.second-section .two .four{
+    background-image: url(./images/four.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 320px;
+}
+.second-section .a{
+    color: grey;
+    text-align: right;
+    font-size: 12px;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+
+/* Start Live Section */
+
+.live-section{
+    height: 80vh;
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Graphik Web', 'Graphik', sans-serif;
+}
+
+.live-section p:first-child{
+    color: #1ce783;
+    font-size: 15px;
+}
+
+.live-section h1{
+    margin: 15px 0px 30px 0px;
+    font-size: 48px;
+}
+
+.live-section h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.live-section button{
+    color: var(--white);
+    background: none;
+    border: none;
+    opacity: 0.8;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* Start Sport Section */
+
+.sport-section{
+    height: 110vh;
+    background-image: url(./images/sports_img.jpg);
+    background-size: cover;
+    position: relative;
+    font-family: 'Graphik Web', 'Graphik', sans-serif;
+    color: white;
+}
+
+.sport-section .one{
+    height: 60vh;
+    width: 500px;
+    margin: 200px 0px 0px 270px;
+    position: absolute;
+}
+
+.sport-section .one h6:first-child{
+    color: white;
+    border-bottom: 4px solid white;
+    margin: 0px 40px 0px 0px;
+    font-weight: 800;
+    font-size: 11px;
+}
+
+.sport-section .b img{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    margin: 30px 0px 30px 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100px; 
+    margin-right: 20px;   
+}
+
+.sport-section .one .a{
+    display: flex;
+}
+.sport-section .one .a h6:last-child{
+    margin: 0px 40px 0px 0px;
+    font-weight: 800;
+    font-size: 11px;
+    opacity: 0.6;
+}
+.sport-section .one .a h6:nth-child(2){
+    margin: 0px 40px 0px 0px;
+    font-weight: 800;
+    font-size: 11px;
+    opacity: 0.6;
+}
+.sport-section h1{
+    font-size: 43px;
+    font-weight: 800;
+    margin: 40px 0px 30px 0px;
+}
+.sport-section div h5{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
+}
+.sport-section .b p{
+    font-size: 10px;
+    color: var(--white);
+    opacity: 0.8;
+}
+
+/* Responsiv Design*/
+
+@media(max-width: 768px){
+
+    .container section{
+        background-image: url(./logo/main.jpg);
+        height: 95%;
+    }
+    .container .hero-section{
+        padding: 130px 10px 20px 10px;
+    }
+    .container .hero-section img{
+       height: 100%;
+       width: 80%; 
+    }
+    .container .hero-section p{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .container .hero-section h6{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .container .hero-section a{
+        font-size: 12px;
+    }
+
+    .container .hero-section button{
+        width: 90%;
+        border-radius: 5px;
+        height: 45px;
+    }
+
+    .second-section .one{
+        padding: 20px;
+        margin-top: 150px;
+    }
+    .second-section .one h1{
+        font-size: 32px;
+    }
+    
+    .second-section p{
+        font-size: 5px;
+    }
+    .second-section .a{
+        margin-right: 20px;
+        font-size: 8px;
+    }
+    .second-section .two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .live-section{
+        padding: 20px;
+        margin-top: 650px;
+    }
+    .live-section p:first-child{
+        font-size: 8px;
+    }
+    .live-section h1{
+        font-size: 30px;
+    }
+    .live-section h4{
+        font-size: 14px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .live-section button{
+        font-size: 8px;
+    }
+    .sport-section{
+        background-image: url(./images/sports_img.jpg);
+        width: 100%;
+        background-size: cover;
+    }
+    .sport-section .one{
+        margin-left: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sport-section .one .a h6{
+        font-size: 8px;
+    }
+    .sport-section .one h1{
+        font-size: 25px;
+    }
+    .sport-section .one div h5{
+        font-size: 13px;
+    }
+    
+
+}
+
+/* Start Plan Section */
+
+ .container-a{
+    margin:0px auto;
+    width: 1100px;
+}
+
+.container-a .plan-section{
+    height: 30vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Graphik Web', 'Graphik', sans-serif; 
+}
+.container-a .plan-section h1{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.container-a .plan-section p{
+    font-size: 20px;
+}
+
+.container-a .head{
+    display: flex;
+    height: 200px;
+    position: sticky;
+}
+
+.container-a .head .col-one{
+    width: 40%;
+    height: 200px;
+    padding: 80px;
+}
+.container-a .head .col-two,
+.container-a .head .col-three{
+    height: 200px;
+    width: 30%;
+}
+
+.container-a .head .col-one .one{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+}
+.container-a .head .col-one .two{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #1ce783;
+    margin: 0px 0px 0px 80px;
+}
+.container-a .head .col-one .two h4{
+    margin-right: 40px;
+}
+.container-a .head .col-one .two img{
+    width: 150px;
+}
+
+.container-a .head .col-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container-a .head .col-two .one{
+    border: none;
+    background-color: #1ce783;
+    width: 170px;
+    height: 25px;
+    border-radius: 30px;
+    font-size: 10px;
+}
+.container-a .head .col-two h4{
+    color: grey;
+    opacity: 0.6;
+    margin: 25px 0px 5px 0px;
+}
+.container-a .head .col-two h3{
+    color: white;
+    margin-bottom: 8px;
+}
+.container-a .head .col-two .two{
+    border: none;
+    background-color: white;
+    height: 50px;
+    width: 90%;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.container-a .head .col-three{
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.container-a .head .col-three h4{
+    color: gray;
+    opacity: 0.6;
+    margin-top: 56px;
+}
+.container-a .head .col-three h3{
+    color: white;
+    margin-bottom: 7px;
+}
+.container-a .head .col-three button{
+    height: 50px;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.container-a .row{
+    height: 60px;
+    width: 100%;
+    color: white;
+    display: flex;
+    padding-top: 15px;
+}
+.container-a .row .one{
+    width: 40%;
+    align-items: center;
+}
+.container-a .row .two,
+.container-a .row .three{
+    width: 30%;
+    text-align: center;    
+}
+.container-a .row-one{
+    height: 100px;
+    color: white;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 1.46;
+}
+.container-a .row-two{
+    height: 80px;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.container-a .row-three{
+    height: 50px;
+}
+
+/* Start Container B*/
+
+ /* .end{
+    height: 50vh;
+    background-color: white;
+}
+
+.container-b{
+    height: 50vh;
+    width: 1300px;
+    margin: 0px auto;
+    background-color: red;
+} */
