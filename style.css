@@ -424,6 +424,8 @@ nav{
     display: flex;
     height: 200px;
     position: sticky;
+    top: 0;
+    background-color:  rgb(10, 10, 10);
 }
 
 .container-a .head .col-one{
